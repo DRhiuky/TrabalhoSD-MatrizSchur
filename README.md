@@ -118,4 +118,4 @@ Após a execução, os seguintes arquivos serão gerados:
   - Resultados numéricos e validação da inversa.
 
 > **Observação:**  
-> Espera-se que o tempo de execução paralela seja superior ao tempo serial. Esse comportamento é intencional e ilustra um ponto fundamental: em algoritmos com alta eficiência local (como os do NumPy), os custos de serialização e comunicação em rede superam os ganhos da paralelização. O projeto evidencia esse **trade-off essencial da computação distribuída**.
+> Espera-se que o tempo de execução paralela seja superior ao tempo serial. Esse comportamento ilustra que em algoritmos com alta eficiência local (como os do NumPy), os custos de serialização e comunicação em rede superam os ganhos da paralelização.
