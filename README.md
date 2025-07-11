@@ -11,9 +11,9 @@ Este projeto implementa e analisa o cálculo do determinante e da inversa de mat
 
 O sistema utiliza uma arquitetura cliente-servidor (modelo cliente-worker) com a biblioteca **Pyro5** para comunicação entre processos.
 
-- **client.py**: Orquestrador responsável por gerar a matriz, iniciar os cálculos (serial local e paralelo remoto) e gerar o relatório de desempenho com a comparação dos tempos de execução.
+- **client.py**: Arquivo responsável por gerar a matriz, iniciar os cálculos (serial local e paralelo remoto) e gerar o relatório de desempenho com a comparação dos tempos de execução.
 
-- **worker.py**: Processo worker executado em múltiplas instâncias (inclusive em diferentes máquinas na mesma rede). Cada worker se registra no servidor de nomes e aguarda tarefas. Contém a lógica de divisão do problema e pode delegar subtarefas a outros workers disponíveis no sistema.
+- **worker.py**: Processo executado em múltiplas instâncias (inclusive em diferentes máquinas na mesma rede). Cada worker se registra no servidor de nomes e aguarda tarefas. Contém a lógica de divisão do problema e pode delegar subtarefas a outros workers disponíveis no sistema.
 
 ## 2. Algoritmos e Otimizações
 
@@ -123,4 +123,4 @@ Após a execução, os seguintes arquivos serão gerados:
   - Resultados numéricos e validação da inversa.
 
 > **Observação:**  
-> Espera-se que o tempo de execução paralela seja superior ao tempo serial. Esse comportamento ilustra que em algoritmos com alta eficiência local (como os do NumPy), os custos de serialização e comunicação em rede superam os ganhos da paralelização.
+> Espera-se que o tempo de execução paralela seja superior ao tempo serial. Esse comportamento mostra que em algoritmos com alta eficiência local (como os do NumPy), os custos de serialização e comunicação em rede superam os ganhos da paralelização.
