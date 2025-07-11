@@ -1,7 +1,7 @@
-### nome: Luiz Augusto Bello Marques dos Anjos
-### matrícula: 202010242
+#### nome: Luiz Augusto Bello Marques dos Anjos
+#### matrícula: 202010242
 
-## Trabalho para a Disciplina de Sistemas Distribuidos do curso de Ciência da Computação da UESC
+### Trabalho para a Disciplina de Sistemas Distribuidos do curso de Ciência da Computação da UESC
 
 # Análise de Desempenho de Cálculo de Matrizes em Paralelo
 
