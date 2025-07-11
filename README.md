@@ -1,3 +1,8 @@
+### nome: Luiz Augusto Bello Marques dos Anjos
+### matrícula: 202010242
+
+## Trabalho para a Disciplina de Sistemas Distribuidos do curso de Ciência da Computação da UESC
+
 # Análise de Desempenho de Cálculo de Matrizes em Paralelo
 
 Este projeto implementa e analisa o cálculo do determinante e da inversa de matrizes quadradas em um ambiente distribuído. O objetivo principal é demonstrar o uso de algoritmos de divisão e conquista, como a fórmula de Schur para o determinante e a inversão por blocos, e avaliar o desempenho da execução paralela em comparação com uma execução serial otimizada.
